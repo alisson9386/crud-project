@@ -10,4 +10,7 @@ export class User {
 
   @Column()
   idade: number;
+
+  @Column()
+  skill: string;
 }
